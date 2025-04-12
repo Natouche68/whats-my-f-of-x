@@ -1,15 +1,15 @@
 <script lang="ts">
 	const tries = $state([
-		["x", "x", "x", "x", "x", "x"],
-		["x", "x", "x", "x", "x", "x"],
-		["x", "x", "x", "x", "x", "x"],
-		["x", "x", "x", "x", "x", "x"],
-		["x", "x", "x", "x", "x", "x"],
-		["x", "x", "x", "x", "x", "x"],
+		["", "", "", "", "", ""],
+		["", "", "", "", "", ""],
+		["", "", "", "", "", ""],
+		["", "", "", "", "", ""],
+		["", "", "", "", "", ""],
+		["", "", "", "", "", ""],
 	]) as string[][];
 </script>
 
-<div class="w-full py-24 flex flex-col gap-4 justify-center items-center">
+<div class="size-full flex flex-col gap-4 justify-center items-center">
 	{#each tries as tryEntry}
 		<div class="flex flex-row gap-4">
 			{#each tryEntry as char}
